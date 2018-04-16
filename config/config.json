@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sv-twitter-feed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/svTwitterFeed/SvTwitterFeedWebPart.js",
+          "manifest": "./src/webparts/svTwitterFeed/SvTwitterFeedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "codebird": {
+      "path": "src/webparts/svTwitterFeed/codebird.js",
+      "globalName": "codebird"
+    }
+  },
+  "localizedResources": {
+    "SvTwitterFeedWebPartStrings": "lib/webparts/svTwitterFeed/loc/{locale}.js"
+  }
+}

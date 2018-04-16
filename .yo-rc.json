@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "sv-twitter-feed",
+    "libraryId": "c42d1057-ee30-45d4-b6f7-67ba2b63dcfe",
+    "environment": "spo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sv-twitter-feed-client-side-solution",
+    "id": "c42d1057-ee30-45d4-b6f7-67ba2b63dcfe",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/sv-twitter-feed.sppkg"
+  }
+}

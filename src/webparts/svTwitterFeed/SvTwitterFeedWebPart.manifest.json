@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "46e8fd46-b7c4-41b1-83be-77905d70f983",
+  "alias": "SvTwitterFeedWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "SV Twitter Search" },
+    "description": { "default": "Web Part for searching/viewing tweets" },
+    "officeFabricIconFontName": "Search",
+    "properties": {
+      "description": "SV Twitter Search",
+      "count": "10"
+    }
+  }]
+}

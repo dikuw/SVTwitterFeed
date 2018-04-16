@@ -1,0 +1,70 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.svTwitterFeed {
+  .container {
+    //  max-width: 700px;
+    width: auto;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .input {
+    display: inline-block;
+    min-width: 300px;
+    padding: 7px 12px;
+    border-radius: 18px;
+    background-color: #f5f8fa;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #1DA1F2;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .loadingDiv {
+    display: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .status {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 4px 4px 4px 10px;
+    margin: 10px;
+    border: solid grey 1px;
+  }
+
+  .statusLink {
+    float: right;
+  }
+}
